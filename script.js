@@ -2,6 +2,8 @@ function select() {
 
     const select = document.querySelectorAll('.select');
 
+    if (!select) return;
+
     select.forEach(item => {
 
         const itemS = item.querySelectorAll('.select__item');
